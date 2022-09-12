@@ -12,6 +12,7 @@ NotSoHelpful::~NotSoHelpful()
 }
 bool NotSoHelpful::resetCB(std_srvs::Trigger::Request &req, std_srvs::Trigger::Response &res){
     if(boom_.size()) boom_.clear();
+    return true;
 }
 
 void NotSoHelpful::run() 
