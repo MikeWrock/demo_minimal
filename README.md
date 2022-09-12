@@ -21,7 +21,7 @@
 
 `source /minimal_colcon_ws/install/setup.bash && roslaunch demo_minimal demo.launch`
 
-# Did everything run successfully??? Now lest build the product for release and try again:
+# Did everything run successfully??? Now lets build the product for release and try again:
 
 ## Build as release and relaunch
 
@@ -32,3 +32,5 @@
 # What happened?
 
 ![OhNo](ohno.png)
+
+Take a look here for a nice discussion of what happened: https://www.codeproject.com/Articles/548/Surviving-the-Release-Version
