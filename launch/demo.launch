@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="demo_minimal" type="demo_minimal_node" output="screen" name="demo_minimal_example">
+    </node>
+</launch>
